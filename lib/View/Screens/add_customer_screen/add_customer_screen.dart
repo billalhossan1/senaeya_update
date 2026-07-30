@@ -96,7 +96,7 @@ class AddCustomerScreen extends StatelessWidget {
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   // Customer/Workshop selection
-                                  Obx(
+                                 /* Obx(
                                     () => Row(
                                       mainAxisAlignment:
                                           MainAxisAlignment.spaceEvenly,
@@ -137,6 +137,7 @@ class AddCustomerScreen extends StatelessWidget {
                                     ),
                                   ),
                                   SizedBox(height: 8.h),
+                                  */
                                   // Conditional rendering based on userType
                                   Obx(() {
                                     if (controller.userType.value == 1) {
