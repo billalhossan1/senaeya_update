@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "353734963603",
+    "project_id": "senaeya-59503",
+    "storage_bucket": "senaeya-59503.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:353734963603:android:c3ee0233a1c63098787866",
+        "android_client_info": {
+          "package_name": "com.fahadalfayez.senaeya"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_JkdbNXDQh1vth4ybZsI-H9iZ2QYdj0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
