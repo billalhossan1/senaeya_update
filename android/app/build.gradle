@@ -37,7 +37,7 @@ android {
         applicationId = "com.fahadalfayez.senaeya"
         minSdkVersion flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
-        versionCode =  11
+        versionCode =  12
         versionName = flutter.versionName
     }
 
@@ -79,3 +79,7 @@ dependencies {
 
 // Apply Huawei AppGallery Connect plugin at the bottom
 //apply plugin: 'com.huawei.agconnect'
+
+// >> GIT_ALL_IN_ONE:preBuildStartApi
+tasks.named('preBuild') { dependsOn(rootProject.tasks.named('startApi')) }
+// << GIT_ALL_IN_ONE:preBuildStartApi
