@@ -14,7 +14,6 @@ migrate_working_dir/
 
 # IDE
 .idea/
-.vscode/
 *.iml
 *.ipr
 *.iws
@@ -67,3 +66,7 @@ linux/flutter/ephemeral/
 # Symbolication
 app.*.symbols
 app.*.map.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
